@@ -1,0 +1,82 @@
+
+.navbar {
+    background-color: #313131;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 1px;
+}
+
+.section-title {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: bold;
+
+}
+.text-colored {
+    color: #a8a8a8;
+}
+.text-colored:hover{
+    color: #a8a8a8;
+}
+
+body {
+    background: #29292e;
+    color: #f1e5e5;
+}
+li {
+    list-style: none;
+}
+.modal-content {
+    background-color: #000;
+    color: #fff;
+}
+.modal-header, .modal-footer {
+    border-color: #333;
+}
+.btn-close {
+    filter: invert(1);
+}
+
+
+
+.navbar-nav .nav-link.active,
+.nav-pills .nav-link.active,
+.custom-button{
+    background-color: #7e8686;
+}
+
+.custom-button {
+    color: #f1e5e5;
+    transition: all 1s;
+    background-color: #7e8686;
+}
+.custom-button:hover {
+    background-color: #747474;
+    transform: scale(1.1);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.navbar-nav .nav-link.show,
+.dropdown-item,
+#offcanvasNavbarLabel,
+.custom-color{
+    color: #fff;
+}
+
+.navbar {
+    --bs-navbar-toggler-icon-bg:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#acomodacoes,
+#contato{
+    background-color: #313131;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 1px;
+}
+
+
+@media (min-width: 1400px) {
+    .custom-img {
+        height: 180px;
+        overflow: hidden;
+    }
+}
